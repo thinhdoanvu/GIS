@@ -6,9 +6,8 @@
   <br> Hướng dẫn</br>
   </a>
 </p>
-                                                                                          
-1. Setup GIS
-2. Licence Manager Folder
+<br>1. Setup GIS Desktop</br>                                                                                          
+<br>2. Licence Manager Folder</br>
 	2.1 Setup
 	2.2 Start/Stop Licence manager
 		Stop -> Sart
