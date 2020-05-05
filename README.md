@@ -6,6 +6,6 @@
   <br> Hướng dẫn</br>
   </a>
 </p>
-## Cơ sở dữ liệu mẫu
-Sử dụng đường link đính kèm
+                                                                                          
+### Cơ sở dữ liệu mẫu: Link
 # Cấu hình ArcGis Server 10.1 trên Windows 10 (x64)
