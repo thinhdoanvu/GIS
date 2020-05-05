@@ -1,0 +1,52 @@
+Bước 1. Cài IIS trong Windows10
+	Run: appwiz.cpl
+	Turn Windows Features on or off
+		Internet Information Services và các nhánh con trong này
+			FTP Server, Web Management Tool, World Wide Web Services
+		OK
+	Trình duyệt Web và gõ: localhost -> Kết quả hiện ra trang Web
+Bước 2: Cài đặt postgresql-9.5.21-3-windows-x64
+	Password: admin
+	Port: 5432
+	Local: Default Local
+	
+Bước 3. Cài ArcGIS server
+	username: arcgis
+	password: admin
+	Do not export configuration file
+	Add licence key
+
+Bước 4. Create new site
+http://localhost:6080/arcgis/manager/
+Username: arcgis
+Password: admin (như lúc cài)
+
+Root Server Directory: C:\arcgisserver\directories
+Configuration Store: C:\arcgisserver\config-store
+
+Hoàn tất sẽ có kết quả: http://localhost:6080/arcgis/manager/index.html
+
+
+Bước 5. Export to Server
+	Mở Arcmap
+	Chọn Catalog - D_Click Add to ArcGIS Server
+	Use GIS service
+		Server URL: http://localhost:6080/arcgis/service
+		Username: arcgis
+		Password: admin (như lúc cài)
+		Save Password
+		Finish
+	Publish to ArcGIS server
+		Server URL: http://localhost:6080/arcgis/service
+		Username: arcgis
+		Password: admin (như lúc cài)
+		Save Password
+		Finish	
+Bước 6. Publish bản đồ sang ArcGIS server
+	File - Share As - Services - Publish As Services 
+	Name: IICBE2015_f
+	Connection: http://localhost:6080/arcgis/admin
+	Publish
+Bước 8. Vô http://localhost:6080/arcgis/manager/index.html
+	Thấy có WEb mới
+	
