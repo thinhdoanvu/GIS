@@ -1,7 +1,7 @@
-# Phiên bản sử dụng
-## ArcGis Desktop
+# Cài đặt phần mềm
+### ArcGis Desktop
 Sử dụng phiên bản: 10.1
-## ArcGIS Server
+### ArcGIS Server
 Sử dụng phiên bản 10.1
 ## Cơ sở dữ liệu mẫu
 Sử dụng đường link đính kèm
